@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.clientlogin.activities.Login">
+    <include
+        android:id="@+id/layout_getclient"
+        layout="@layout/layout_getclient"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+    </include>
+
+    <include
+        android:id="@+id/layout_verifypending"
+        layout="@layout/layout_verifypending"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+    </include>
+
+    <include
+        android:id="@+id/layout_login"
+        layout="@layout/layout_login"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+    </include>
+
+
+
+</RelativeLayout>

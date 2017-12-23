@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#808080">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="35dp"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#FF8080" />
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#ffffff">
+
+                <EditText
+                    android:id="@+id/edtClientname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:hint="Client-name"
+                    android:inputType="text"
+                    android:shadowColor="#000"
+                    android:textColor="#000"
+                    android:textColorHighlight="#000"
+                    android:textColorHint="#000"
+                    android:textColorLink="#000"
+                    android:textSize="18sp" />
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#FF8080" />
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#ffffff">
+
+                <EditText
+                    android:id="@+id/edtUsernameCL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:hint="User-name"
+                    android:inputType="text"
+                    android:shadowColor="#000"
+                    android:textColor="#000"
+                    android:textColorHighlight="#000"
+                    android:textColorHint="#000"
+                    android:textColorLink="#000"
+                    android:textSize="18sp" />
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#FF8080" />
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/text3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#ffffff">
+
+                <EditText
+                    android:id="@+id/edtMobile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:hint="Mobile-Number"
+                    android:inputType="number"
+                    android:shadowColor="#000"
+                    android:textColor="#000"
+                    android:textColorHighlight="#000"
+                    android:textColorHint="#000"
+                    android:textColorLink="#000"
+                    android:textSize="18sp" />
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnVerify"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="VERIFY"
+            android:textSize="18sp" />
+    </LinearLayout>
+</RelativeLayout>
